@@ -1,0 +1,38 @@
+package algoritmos;
+import java.util.Scanner;
+public class Algoritmos {
+
+
+
+    public static void main(String[] args) {
+        
+ Scanner Lector = new Scanner(System.in);
+        System.out.println("Ingrese cuantas notas va a ingresar");
+       int p = Lector.nextInt();
+        int[] arreglo = new int[p];  // se crea el arreglo 
+for (int x = 0; x<arreglo.length;x++){
+    System.out.println("Ingrese las notas");
+       arreglo [x] = Lector.nextInt();
+       Lector.nextLine();
+}
+        System.out.println("Arreglo ordenado:");    // se ordena
+        for (int num : arreglo) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
+    }
+    public static void burbuja(int[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+    }
+
+}
+
