@@ -1,0 +1,15 @@
+public class Hobby{
+    private String Juego; // hacer otra clase
+    private String salida; // otra clase, (viajes, salidas etc)
+    private String deportes; // otra clase
+    private double tiempo; // otra clase ya que se repite bastante en juego, deporte, estudio
+    private double dinero; // otra clase (ahorrro)
+
+    //aumentar a medida aumente los tiempos
+    
+// hacer un programa que pueda ver un calendario con mis juegso, salidas etc, y tambien de ver el gasto que tengo para ver si se puede economizar y tambien para distribuir los tiempos, tambien poner limites de tiempo 
+ // para evitar otros productos
+
+
+
+}
