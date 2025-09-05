@@ -14,8 +14,11 @@ public class ANALISISDEALGORITMOS {
             System.out.print(" 0 ");
         }
     }
-    System.out.println("");  //ES O N^2, YA QUE POSEE 2 FOR aumentandole el tiempo 
+    System.out.println("");  //ES O N^2, YA QUE POSEE 2 FOR aumentandole el tiempo;
+        // se usara para mostrar patrones en la apps
+        
     }
     }
      
 }
+
